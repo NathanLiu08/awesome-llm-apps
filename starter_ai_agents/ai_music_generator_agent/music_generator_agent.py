@@ -82,4 +82,4 @@ if openai_api_key and models_lab_api_key:
                     logger.error(f"Streamlit app error: {e}")
 else:
     # Show warning if keys are not entered
-    st.sidebar.warning("Please enter both the OpenAI and ModelsLab API keys to use the app.")
+    st.sidebar.warning("Please enter both the OpenAI and ModelsLab API keys to use the app. Sign up or log in at https://platform.openai.com/api-keys")
